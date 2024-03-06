@@ -1,0 +1,2 @@
+module Mpu6050:
+    signal gnd
