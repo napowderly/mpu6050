@@ -11,8 +11,8 @@ module MPU6050
     i2c.sda ~ ic.sda
     i2c.scl ~ ic.scl
 
-    # SPI
 
+    # Interrupt
     interrupt ~ imu.int
     signal address ~ imu.ad0
     address ~ power.gnd
