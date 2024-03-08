@@ -1,0 +1,32 @@
+component MPU_6050_C24112:
+    # component MPU-6050_C24112
+    footprint = "QFN-24_L4.0-W4.0-P0.50-BL-EP2.7"
+    lcsc_id = "C24112"
+    mpn = "C24112"
+    # pins
+    signal CLKIN ~ pin 1
+    signal NC ~ pin 2
+    NC ~ pin 3
+    NC ~ pin 4
+    NC ~ pin 5
+    signal AUX_DA ~ pin 6
+    signal AUX_CL ~ pin 7
+    signal VLOGIC ~ pin 8
+    signal AD0 ~ pin 9
+    signal REGOUT ~ pin 10
+    signal FSYNC ~ pin 11
+    signal INT ~ pin 12
+    signal VDD ~ pin 13
+    NC ~ pin 14
+    NC ~ pin 15
+    NC ~ pin 16
+    NC ~ pin 17
+    signal GND ~ pin 18
+    signal RESV ~ pin 19
+    signal CPOUT ~ pin 20
+    RESV ~ pin 21
+    RESV ~ pin 22
+    signal SCL ~ pin 23
+    signal SDA ~ pin 24
+    signal EP ~ pin 25
+
