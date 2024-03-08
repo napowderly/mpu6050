@@ -63,17 +63,17 @@ component _MPU_6050_C24112:
     footprint = "QFN-24_L4.0-W4.0-P0.50-BL-EP2.7"
     mpn = "C24112"
     # pins
-    signal clkin ~ pin p1
-    signal aux_da ~ pin p6
-    signal aux_cl ~ pin p7
-    signal vlogic ~ pin p8
-    signal ad0 ~ pin p9
-    signal regout ~ pin p10
-    signal fsync ~ pin p11
-    signal int ~ pin p12
-    signal vdd ~ pin p13
-    signal gnd ~ pin p18
-    signal cpout ~ pin p20
-    signal scl ~ pin p23
-    signal sda ~ pin p24
-    signal ep ~ pin p25
+    signal clkin ~ pin 1
+    signal aux_da ~ pin 6
+    signal aux_cl ~ pin 7
+    signal vlogic ~ pin 8
+    signal ad0 ~ pin 9
+    signal regout ~ pin 10
+    signal fsync ~ pin 11
+    signal int ~ pin 12
+    signal vdd ~ pin 13
+    signal gnd ~ pin 18
+    signal cpout ~ pin 20
+    signal scl ~ pin 23
+    signal sda ~ pin 24
+    signal ep ~ pin 25
